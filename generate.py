@@ -37,10 +37,7 @@ je reg5 reg4
 20 230 60
 130 100 150 80
 mov reg4 22
-cmp reg2 reg4
-lfr reg5 reg4
-mov reg1 0
-cmp reg1 reg5"""
+cmp reg2 reg4"""
 
 instructionLines = s.split("\n")
 
